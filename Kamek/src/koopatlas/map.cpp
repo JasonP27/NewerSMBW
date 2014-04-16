@@ -548,7 +548,10 @@ void dWMMap_c::renderer_c::loadCamera(Mtx m) {
 
 
 void dWMMap_c::doEffects() {
-	int mapID = dScKoopatlas_c::instance->currentMapID;
+	
+	// Newer's Hard-coded map effects.
+	
+/*	int mapID = dScKoopatlas_c::instance->currentMapID;
 
 	// Note: effect::spawn() takes name, unk, pos, rot, scale
 	const S16Vec efRot = {0x1800, 0, 0};
@@ -613,7 +616,7 @@ void dWMMap_c::doEffects() {
 		efPos.y -= 700.0f;
 		effects[1].spawn("Wm_cs_snow_a", 0, &efPos, &efRot, 0);
 	}
-
+*/
 }
 
 
